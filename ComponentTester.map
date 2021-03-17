@@ -1,0 +1,1508 @@
+Archive member included to satisfy reference by file (symbol)
+
+/usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_mulsi3.o)
+                              probes.o (__mulsi3)
+/usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_udivmodqi4.o)
+                              main.o (__udivmodqi4)
+/usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_divmodqi4.o)
+                              display.o (__divmodqi4)
+/usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_udivmodhi4.o)
+                              main.o (__udivmodhi4)
+/usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_divmodhi4.o)
+                              main.o (__divmodhi4)
+/usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_udivmodsi4.o)
+                              main.o (__udivmodsi4)
+/usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_divmodsi4.o)
+                              adjust.o (__divmodsi4)
+/usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_negsi2.o)
+                              /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_divmodsi4.o) (__negsi2)
+/usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_exit.o)
+                              /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/crtatmega328.o (exit)
+/usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_tablejump2.o)
+                              user.o (__tablejump2__)
+/usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_copy_data.o)
+                              main.o (__do_copy_data)
+/usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_clear_bss.o)
+                              main.o (__do_clear_bss)
+/usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_umulhisi3.o)
+                              main.o (__umulhisi3)
+/usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_usmulhisi3.o)
+                              cap.o (__usmulhisi3)
+/usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_muluhisi3.o)
+                              user.o (__muluhisi3)
+/usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_prologue.o)
+                              main.o (__prologue_saves__)
+/usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_epilogue.o)
+                              main.o (__epilogue_restores__)
+/usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libc.a(ultoa_ncheck.o)
+                              display.o (__ultoa_ncheck)
+/usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libc.a(utoa_ncheck.o)
+                              display.o (__utoa_ncheck)
+/usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libc.a(strrev.o)
+                              /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libc.a(ultoa_ncheck.o) (strrev)
+/usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libatmega328.a(eerd_byte.o)
+                              user.o (eeprom_read_byte)
+/usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libatmega328.a(eerd_word.o)
+                              user.o (eeprom_read_word)
+/usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libatmega328.a(eewr_byte.o)
+                              adjust.o (eeprom_write_byte)
+/usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libatmega328.a(eerd_block.o)
+                              /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libatmega328.a(eerd_word.o) (eeprom_read_blraw)
+
+Allocating common symbols
+Common symbol       size              file
+
+Check               0xb               main.o
+Resistors           0x15              main.o
+UI                  0x16              main.o
+X_End               0x2               ST7735.o
+AltSemi             0x7               main.o
+OutBuffer           0xc               main.o
+Caps                0x2d              main.o
+Y_End               0x2               ST7735.o
+Diodes              0x24              main.o
+Cfg                 0xd               main.o
+MissedParts         0x1               main.o
+SPI                 0x1               main.o
+LineFlags           0x2               ST7735.o
+Semi                0x1c              main.o
+Pulses              0x2               tools_signal.o
+Y_Start             0x2               ST7735.o
+X_Start             0x2               ST7735.o
+Probes              0x12              main.o
+NV                  0xb               main.o
+Inductor            0x5               main.o
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+text             0x0000000000000000 0x0000000000020000 xr
+data             0x0000000000800060 0x000000000000ffa0 rw !x
+eeprom           0x0000000000810000 0x0000000000010000 rw !x
+fuse             0x0000000000820000 0x0000000000000003 rw !x
+lock             0x0000000000830000 0x0000000000000400 rw !x
+signature        0x0000000000840000 0x0000000000000400 rw !x
+user_signatures  0x0000000000850000 0x0000000000000400 rw !x
+*default*        0x0000000000000000 0xffffffffffffffff
+
+Linker script and memory map
+
+Address of section .data set to 0x800100
+LOAD /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/crtatmega328.o
+LOAD main.o
+LOAD user.o
+LOAD pause.o
+LOAD adjust.o
+LOAD ADC.o
+LOAD probes.o
+LOAD display.o
+LOAD resistor.o
+LOAD cap.o
+LOAD semi.o
+LOAD inductor.o
+LOAD tools_misc.o
+LOAD tools_signal.o
+LOAD tools_LC_Meter.o
+LOAD SPI.o
+LOAD I2C.o
+LOAD serial.o
+LOAD commands.o
+LOAD OneWire.o
+LOAD IR_RX.o
+LOAD IR_TX.o
+LOAD DHTxx.o
+LOAD ADS7843.o
+LOAD HD44780.o
+LOAD ILI9163.o
+LOAD ILI9341.o
+LOAD ILI9481.o
+LOAD ILI9486.o
+LOAD ILI9488.o
+LOAD PCD8544.o
+LOAD PCF8814.o
+LOAD SH1106.o
+LOAD SSD1306.o
+LOAD ST7036.o
+LOAD ST7565R.o
+LOAD ST7735.o
+LOAD ST7920.o
+LOAD STE2007.o
+LOAD VT100.o
+LOAD TestDisplay.o
+LOAD wait.o
+START GROUP
+LOAD /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a
+LOAD /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libm.a
+LOAD /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libc.a
+LOAD /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libatmega328.a
+END GROUP
+                0x0000000000000000                __TEXT_REGION_ORIGIN__ = DEFINED (__TEXT_REGION_ORIGIN__)?__TEXT_REGION_ORIGIN__:0x0
+                0x0000000000800060                __DATA_REGION_ORIGIN__ = DEFINED (__DATA_REGION_ORIGIN__)?__DATA_REGION_ORIGIN__:0x800060
+                0x0000000000020000                __TEXT_REGION_LENGTH__ = DEFINED (__TEXT_REGION_LENGTH__)?__TEXT_REGION_LENGTH__:0x20000
+                0x000000000000ffa0                __DATA_REGION_LENGTH__ = DEFINED (__DATA_REGION_LENGTH__)?__DATA_REGION_LENGTH__:0xffa0
+                0x0000000000010000                __EEPROM_REGION_LENGTH__ = DEFINED (__EEPROM_REGION_LENGTH__)?__EEPROM_REGION_LENGTH__:0x10000
+                [0x0000000000000003]                __FUSE_REGION_LENGTH__ = DEFINED (__FUSE_REGION_LENGTH__)?__FUSE_REGION_LENGTH__:0x400
+                0x0000000000000400                __LOCK_REGION_LENGTH__ = DEFINED (__LOCK_REGION_LENGTH__)?__LOCK_REGION_LENGTH__:0x400
+                0x0000000000000400                __SIGNATURE_REGION_LENGTH__ = DEFINED (__SIGNATURE_REGION_LENGTH__)?__SIGNATURE_REGION_LENGTH__:0x400
+                0x0000000000000400                __USER_SIGNATURE_REGION_LENGTH__ = DEFINED (__USER_SIGNATURE_REGION_LENGTH__)?__USER_SIGNATURE_REGION_LENGTH__:0x400
+
+.hash
+ *(.hash)
+
+.dynsym
+ *(.dynsym)
+
+.dynstr
+ *(.dynstr)
+
+.gnu.version
+ *(.gnu.version)
+
+.gnu.version_d
+ *(.gnu.version_d)
+
+.gnu.version_r
+ *(.gnu.version_r)
+
+.rel.init
+ *(.rel.init)
+
+.rela.init
+ *(.rela.init)
+
+.rel.text
+ *(.rel.text)
+ *(.rel.text.*)
+ *(.rel.gnu.linkonce.t*)
+
+.rela.text
+ *(.rela.text)
+ *(.rela.text.*)
+ *(.rela.gnu.linkonce.t*)
+
+.rel.fini
+ *(.rel.fini)
+
+.rela.fini
+ *(.rela.fini)
+
+.rel.rodata
+ *(.rel.rodata)
+ *(.rel.rodata.*)
+ *(.rel.gnu.linkonce.r*)
+
+.rela.rodata
+ *(.rela.rodata)
+ *(.rela.rodata.*)
+ *(.rela.gnu.linkonce.r*)
+
+.rel.data
+ *(.rel.data)
+ *(.rel.data.*)
+ *(.rel.gnu.linkonce.d*)
+
+.rela.data
+ *(.rela.data)
+ *(.rela.data.*)
+ *(.rela.gnu.linkonce.d*)
+
+.rel.ctors
+ *(.rel.ctors)
+
+.rela.ctors
+ *(.rela.ctors)
+
+.rel.dtors
+ *(.rel.dtors)
+
+.rela.dtors
+ *(.rela.dtors)
+
+.rel.got
+ *(.rel.got)
+
+.rela.got
+ *(.rela.got)
+
+.rel.bss
+ *(.rel.bss)
+
+.rela.bss
+ *(.rela.bss)
+
+.rel.plt
+ *(.rel.plt)
+
+.rela.plt
+ *(.rela.plt)
+
+.text           0x0000000000000000     0x7f90
+ *(.vectors)
+ .vectors       0x0000000000000000       0x68 /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/crtatmega328.o
+                0x0000000000000000                __vectors
+                0x0000000000000000                __vector_default
+ *(.vectors)
+ *(.progmem.gcc*)
+ .progmem.gcc_sw_table
+                0x0000000000000068       0x38 user.o
+                0x00000000000000a0                . = ALIGN (0x2)
+                0x00000000000000a0                __trampolines_start = .
+ *(.trampolines)
+ .trampolines   0x00000000000000a0        0x0 linker stubs
+ *(.trampolines*)
+                0x00000000000000a0                __trampolines_end = .
+ *libprintf_flt.a:*(.progmem.data)
+ *libc.a:*(.progmem.data)
+ *(.progmem*)
+ .progmem.data  0x00000000000000a0     0x160a ST7735.o
+                0x00000000000000a0                PinTable
+                0x00000000000000ca                SymbolData
+                0x00000000000007ca                FontTable
+                0x00000000000008ca                FontData
+                0x00000000000016aa                . = ALIGN (0x2)
+ *(.jumptables)
+ *(.jumptables*)
+ *(.lowtext)
+ *(.lowtext*)
+                0x00000000000016aa                __ctors_start = .
+ *(.ctors)
+                0x00000000000016aa                __ctors_end = .
+                0x00000000000016aa                __dtors_start = .
+ *(.dtors)
+                0x00000000000016aa                __dtors_end = .
+ SORT(*)(.ctors)
+ SORT(*)(.dtors)
+ *(.init0)
+ .init0         0x00000000000016aa        0x0 /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/crtatmega328.o
+                0x00000000000016aa                __init
+ *(.init0)
+ *(.init1)
+ *(.init1)
+ *(.init2)
+ .init2         0x00000000000016aa        0xc /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/crtatmega328.o
+ *(.init2)
+ *(.init3)
+ *(.init3)
+ *(.init4)
+ .init4         0x00000000000016b6       0x16 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_copy_data.o)
+                0x00000000000016b6                __do_copy_data
+ .init4         0x00000000000016cc       0x10 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_clear_bss.o)
+                0x00000000000016cc                __do_clear_bss
+ *(.init4)
+ *(.init5)
+ *(.init5)
+ *(.init6)
+ *(.init6)
+ *(.init7)
+ *(.init7)
+ *(.init8)
+ *(.init8)
+ *(.init9)
+ .init9         0x00000000000016dc        0x8 /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/crtatmega328.o
+ *(.init9)
+ *(.text)
+ .text          0x00000000000016e4        0x4 /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/crtatmega328.o
+                0x00000000000016e4                __vector_22
+                0x00000000000016e4                __vector_1
+                0x00000000000016e4                __vector_24
+                0x00000000000016e4                __vector_12
+                0x00000000000016e4                __bad_interrupt
+                0x00000000000016e4                __vector_6
+                0x00000000000016e4                __vector_3
+                0x00000000000016e4                __vector_23
+                0x00000000000016e4                __vector_25
+                0x00000000000016e4                __vector_13
+                0x00000000000016e4                __vector_17
+                0x00000000000016e4                __vector_19
+                0x00000000000016e4                __vector_5
+                0x00000000000016e4                __vector_4
+                0x00000000000016e4                __vector_9
+                0x00000000000016e4                __vector_2
+                0x00000000000016e4                __vector_21
+                0x00000000000016e4                __vector_15
+                0x00000000000016e4                __vector_8
+                0x00000000000016e4                __vector_14
+                0x00000000000016e4                __vector_10
+                0x00000000000016e4                __vector_18
+                0x00000000000016e4                __vector_20
+ .text          0x00000000000016e8      0xed4 main.o
+                0x00000000000016e8                Show_SemiPinout
+                0x0000000000001766                Show_SimplePinout
+                0x00000000000017da                Show_ENormValues
+                0x0000000000001880                Show_Fail
+                0x000000000000189c                Show_Error
+                0x00000000000018e2                Show_SingleResistor
+                0x0000000000001914                Show_Resistor
+                0x0000000000001a84                Show_Capacitor
+                0x0000000000001b98                Show_SemiCurrent
+                0x0000000000001bf8                Show_Diode_Cap
+                0x0000000000001c1a                Show_Diode
+                0x0000000000001ee6                Show_BJT
+                0x0000000000002146                Show_FET_Extras
+                0x0000000000002246                Show_FET_Channel
+                0x0000000000002266                Show_FET_Mode
+                0x0000000000002282                Show_FET
+                0x000000000000231c                Show_IGBT
+                0x0000000000002340                Show_ThyristorTriac
+                0x000000000000239a                Show_PUT
+                0x00000000000023ee                Show_UJT
+                0x0000000000002422                CheckVoltageRefs
+                0x00000000000024a4                PowerOff
+                0x00000000000024ee                ShowBattery
+                0x0000000000002572                CheckBattery
+ .text          0x00000000000025bc      0x8a0 user.o
+                0x00000000000025bc                NumberOfDigits
+                0x00000000000025fa                CmpValue
+                0x00000000000026e8                RescaleValue
+                0x0000000000002738                EEStringLength
+                0x0000000000002762                ReadEncoder
+                0x0000000000002816                TestKey
+                0x0000000000002a78                WaitKey
+                0x0000000000002a84                SmoothLongKeyPress
+                0x0000000000002a9a                ShortCircuit
+                0x0000000000002b08                MarkItem
+                0x0000000000002b32                MenuTool
+                0x0000000000002c86                AdjustmentMenu
+                0x0000000000002cf8                PresentMainMenu
+                0x0000000000002dd8                MainMenu
+ .text          0x0000000000002e5c       0xde pause.o
+                0x0000000000002e5c                MilliSleep
+                0x0000000000002f22                __vector_7
+ .text          0x0000000000002f3a      0x834 adjust.o
+                0x0000000000002f3a                SetAdjustmentDefaults
+                0x0000000000002f62                CheckSum
+                0x0000000000002f7c                ManageAdjustmentStorage
+                0x0000000000003010                ShowAdjustmentValues
+                0x00000000000030f6                SelfAdjustment
+                0x0000000000003536                SelfTest
+ .text          0x000000000000376e       0xe6 ADC.o
+                0x000000000000376e                ReadU
+                0x0000000000003830                ReadU_5ms
+                0x0000000000003842                ReadU_20ms
+ .text          0x0000000000003854      0x7c2 probes.o
+                0x0000000000003854                UpdateProbes
+                0x0000000000003910                RestoreProbes
+                0x0000000000003920                BackupProbes
+                0x0000000000003932                GetThirdProbe
+                0x000000000000393c                ShortedPair
+                0x00000000000039a2                ShortedProbes
+                0x00000000000039c6                DischargeCap
+                0x0000000000003a5a                DischargeProbes
+                0x0000000000003b7c                PullProbe
+                0x0000000000003bb4                GetFactor
+                0x0000000000003c76                GetENormValue
+                0x0000000000003e8a                CheckProbes
+                0x0000000000003fd4                CheckAlternatives
+ .text          0x0000000000004016      0x44e display.o
+                0x0000000000004016                Display_NextLine
+                0x000000000000405a                Display_LastLine
+                0x0000000000004086                Display_EEString
+                0x00000000000040a4                Display_ProbeNumber
+                0x00000000000040dc                Display_Space
+                0x00000000000040e4                Display_EEString_Space
+                0x00000000000040ee                Display_NL_EEString
+                0x0000000000004104                Display_NL_EEString_Space
+                0x000000000000411e                LCD_ClearLine2
+                0x000000000000412e                Display_HexDigit
+                0x000000000000413e                Display_HexByte
+                0x0000000000004156                Display_FullValue
+                0x00000000000041f4                Display_Value
+                0x0000000000004304                Display_SignedValue
+                0x000000000000434c                Display_EValue
+                0x0000000000004384                LCD_FancyProbeNumber
+                0x00000000000043d6                LCD_FancySemiPinout
+ .text          0x0000000000004464      0x6d0 resistor.o
+                0x0000000000004464                SmallResistor
+                0x00000000000045fc                CheckResistor
+                0x0000000000004ad6                CheckSingleResistor
+ .text          0x0000000000004b34      0x91a cap.o
+                0x0000000000004b34                SetUpDelayTimer
+                0x0000000000004b4a                DelayTimer
+                0x0000000000004b5c                MeasureESR
+                0x0000000000004df4                LargeCap
+                0x000000000000506a                SmallCap
+                0x0000000000005300                MeasureCap
+ .text          0x000000000000544e     0x1056 semi.o
+                0x000000000000544e                GetLeakageCurrent
+                0x0000000000005514                SearchDiode
+                0x000000000000553a                CheckDiode
+                0x0000000000005738                VerifyMOSFET
+                0x000000000000576c                GetGateThreshold
+                0x000000000000585a                Get_hFE_C
+                0x0000000000005a80                CheckTransistor
+                0x0000000000005e64                CheckDepletionModeFET
+                0x00000000000061ae                CheckThyristorTriac
+                0x00000000000062f0                CheckPUT
+                0x0000000000006392                CheckUJT
+ .text          0x00000000000064a4      0x416 inductor.o
+                0x00000000000064a4                MeasureInductance
+                0x000000000000665c                MeasureInductor
+ .text          0x00000000000068ba      0x4f6 tools_misc.o
+                0x00000000000068ba                ProbePinout
+                0x0000000000006902                Zener_Tool
+                0x0000000000006a00                ESR_Tool
+                0x0000000000006a8c                Cap_Leakage
+                0x0000000000006c78                Monitor_RCL
+ .text          0x0000000000006db0      0x6da tools_signal.o
+                0x0000000000006db0                PWM_Tool
+                0x0000000000007074                SquareWave_SignalGenerator
+                0x0000000000007286                __vector_16
+                0x00000000000072b4                __vector_11
+                0x00000000000072e4                FrequencyCounter
+ .text          0x000000000000748a        0x0 tools_LC_Meter.o
+ .text          0x000000000000748a       0x38 SPI.o
+                0x000000000000748a                SPI_Setup
+                0x00000000000074aa                SPI_Write_Byte
+ .text          0x00000000000074c2        0x0 I2C.o
+ .text          0x00000000000074c2        0x0 serial.o
+ .text          0x00000000000074c2        0x0 commands.o
+ .text          0x00000000000074c2        0x0 OneWire.o
+ .text          0x00000000000074c2        0x0 IR_RX.o
+ .text          0x00000000000074c2        0x0 IR_TX.o
+ .text          0x00000000000074c2        0x0 DHTxx.o
+ .text          0x00000000000074c2        0x0 ADS7843.o
+ .text          0x00000000000074c2        0x0 HD44780.o
+ .text          0x00000000000074c2        0x0 ILI9163.o
+ .text          0x00000000000074c2        0x0 ILI9341.o
+ .text          0x00000000000074c2        0x0 ILI9481.o
+ .text          0x00000000000074c2        0x0 ILI9486.o
+ .text          0x00000000000074c2        0x0 ILI9488.o
+ .text          0x00000000000074c2        0x0 PCD8544.o
+ .text          0x00000000000074c2        0x0 PCF8814.o
+ .text          0x00000000000074c2        0x0 SH1106.o
+ .text          0x00000000000074c2        0x0 SSD1306.o
+ .text          0x00000000000074c2        0x0 ST7036.o
+ .text          0x00000000000074c2        0x0 ST7565R.o
+ .text          0x00000000000074c2      0x412 ST7735.o
+                0x00000000000074c2                LCD_BusSetup
+                0x00000000000074ce                LCD_Cmd
+                0x00000000000074da                LCD_Data
+                0x00000000000074e6                LCD_Data2
+                0x0000000000007500                LCD_AddressWindow
+                0x000000000000753e                LCD_CharPos
+                0x0000000000007594                LCD_ClearLine
+                0x0000000000007662                LCD_Clear
+                0x000000000000767e                LCD_Init
+                0x0000000000007714                LCD_Char
+                0x00000000000077f8                LCD_Cursor
+                0x0000000000007816                LCD_Symbol
+ .text          0x00000000000078d4        0x0 ST7920.o
+ .text          0x00000000000078d4        0x0 STE2007.o
+ .text          0x00000000000078d4        0x0 VT100.o
+ .text          0x00000000000078d4        0x0 TestDisplay.o
+ .text          0x00000000000078d4       0x4a wait.o
+                0x00000000000078d4                wait5s
+                0x00000000000078d6                wait4s
+                0x00000000000078d8                wait3s
+                0x00000000000078da                wait2s
+                0x00000000000078dc                wait1000ms
+                0x00000000000078dc                wait1s
+                0x00000000000078de                wait500ms
+                0x00000000000078e0                wait400ms
+                0x00000000000078e2                wait300ms
+                0x00000000000078e4                wait200ms
+                0x00000000000078e6                wait100ms
+                0x00000000000078ea                wait50ms
+                0x00000000000078ec                wait40ms
+                0x00000000000078ee                wait30ms
+                0x00000000000078f0                wait20ms
+                0x00000000000078f2                wait10ms
+                0x00000000000078f4                wait5ms
+                0x00000000000078f6                wait4ms
+                0x00000000000078f8                wait3ms
+                0x00000000000078fa                wait2ms
+                0x00000000000078fc                wait1ms
+                0x00000000000078fe                wait500us
+                0x0000000000007900                wait400us
+                0x0000000000007902                wait300us
+                0x0000000000007904                wait200us
+                0x0000000000007906                wait100us
+                0x0000000000007908                wait50us
+                0x000000000000790a                wait40us
+                0x000000000000790c                wait30us
+                0x000000000000790e                wait20us
+                0x0000000000007910                wait10us
+                0x0000000000007912                wait5us
+                0x0000000000007914                wait4us
+                0x0000000000007916                wait3us
+                0x0000000000007918                wait2us
+                0x000000000000791a                wait1us
+ .text          0x000000000000791e        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_mulsi3.o)
+ .text          0x000000000000791e        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_udivmodqi4.o)
+ .text          0x000000000000791e        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_divmodqi4.o)
+ .text          0x000000000000791e        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_udivmodhi4.o)
+ .text          0x000000000000791e        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_divmodhi4.o)
+ .text          0x000000000000791e        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_udivmodsi4.o)
+ .text          0x000000000000791e        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_divmodsi4.o)
+ .text          0x000000000000791e        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_negsi2.o)
+ .text          0x000000000000791e        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_exit.o)
+ .text          0x000000000000791e        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_tablejump2.o)
+ .text          0x000000000000791e        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_copy_data.o)
+ .text          0x000000000000791e        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_clear_bss.o)
+ .text          0x000000000000791e        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_umulhisi3.o)
+ .text          0x000000000000791e        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_usmulhisi3.o)
+ .text          0x000000000000791e        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_muluhisi3.o)
+ .text          0x000000000000791e        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_prologue.o)
+ .text          0x000000000000791e        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_epilogue.o)
+ .text          0x000000000000791e        0x0 /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libc.a(ultoa_ncheck.o)
+ .text          0x000000000000791e        0x0 /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libc.a(utoa_ncheck.o)
+ .text          0x000000000000791e        0x0 /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libc.a(strrev.o)
+ .text          0x000000000000791e        0x0 /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libatmega328.a(eerd_byte.o)
+ .text          0x000000000000791e        0x0 /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libatmega328.a(eerd_word.o)
+ .text          0x000000000000791e        0x0 /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libatmega328.a(eewr_byte.o)
+ .text          0x000000000000791e        0x0 /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libatmega328.a(eerd_block.o)
+                0x000000000000791e                . = ALIGN (0x2)
+ *(.text.*)
+ .text.startup  0x000000000000791e      0x39c main.o
+                0x000000000000791e                main
+ .text.libgcc.mul
+                0x0000000000007cba       0x20 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_mulsi3.o)
+                0x0000000000007cba                __mulsi3
+ .text.libgcc.div
+                0x0000000000007cda        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_mulsi3.o)
+ .text.libgcc   0x0000000000007cda        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_mulsi3.o)
+ .text.libgcc.prologue
+                0x0000000000007cda        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_mulsi3.o)
+ .text.libgcc.builtins
+                0x0000000000007cda        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_mulsi3.o)
+ .text.libgcc.fmul
+                0x0000000000007cda        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_mulsi3.o)
+ .text.libgcc.fixed
+                0x0000000000007cda        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_mulsi3.o)
+ .text.libgcc.mul
+                0x0000000000007cda        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_udivmodqi4.o)
+ .text.libgcc.div
+                0x0000000000007cda       0x18 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_udivmodqi4.o)
+                0x0000000000007cda                __udivmodqi4
+ .text.libgcc   0x0000000000007cf2        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_udivmodqi4.o)
+ .text.libgcc.prologue
+                0x0000000000007cf2        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_udivmodqi4.o)
+ .text.libgcc.builtins
+                0x0000000000007cf2        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_udivmodqi4.o)
+ .text.libgcc.fmul
+                0x0000000000007cf2        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_udivmodqi4.o)
+ .text.libgcc.fixed
+                0x0000000000007cf2        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_udivmodqi4.o)
+ .text.libgcc.mul
+                0x0000000000007cf2        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_divmodqi4.o)
+ .text.libgcc.div
+                0x0000000000007cf2       0x1c /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_divmodqi4.o)
+                0x0000000000007cf2                __divmodqi4
+ .text.libgcc   0x0000000000007d0e        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_divmodqi4.o)
+ .text.libgcc.prologue
+                0x0000000000007d0e        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_divmodqi4.o)
+ .text.libgcc.builtins
+                0x0000000000007d0e        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_divmodqi4.o)
+ .text.libgcc.fmul
+                0x0000000000007d0e        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_divmodqi4.o)
+ .text.libgcc.fixed
+                0x0000000000007d0e        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_divmodqi4.o)
+ .text.libgcc.mul
+                0x0000000000007d0e        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_udivmodhi4.o)
+ .text.libgcc.div
+                0x0000000000007d0e       0x28 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_udivmodhi4.o)
+                0x0000000000007d0e                __udivmodhi4
+ .text.libgcc   0x0000000000007d36        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_udivmodhi4.o)
+ .text.libgcc.prologue
+                0x0000000000007d36        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_udivmodhi4.o)
+ .text.libgcc.builtins
+                0x0000000000007d36        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_udivmodhi4.o)
+ .text.libgcc.fmul
+                0x0000000000007d36        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_udivmodhi4.o)
+ .text.libgcc.fixed
+                0x0000000000007d36        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_udivmodhi4.o)
+ .text.libgcc.mul
+                0x0000000000007d36        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_divmodhi4.o)
+ .text.libgcc.div
+                0x0000000000007d36       0x28 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_divmodhi4.o)
+                0x0000000000007d36                __divmodhi4
+                0x0000000000007d36                _div
+ .text.libgcc   0x0000000000007d5e        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_divmodhi4.o)
+ .text.libgcc.prologue
+                0x0000000000007d5e        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_divmodhi4.o)
+ .text.libgcc.builtins
+                0x0000000000007d5e        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_divmodhi4.o)
+ .text.libgcc.fmul
+                0x0000000000007d5e        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_divmodhi4.o)
+ .text.libgcc.fixed
+                0x0000000000007d5e        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_divmodhi4.o)
+ .text.libgcc.mul
+                0x0000000000007d5e        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_udivmodsi4.o)
+ .text.libgcc.div
+                0x0000000000007d5e       0x44 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_udivmodsi4.o)
+                0x0000000000007d5e                __udivmodsi4
+ .text.libgcc   0x0000000000007da2        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_udivmodsi4.o)
+ .text.libgcc.prologue
+                0x0000000000007da2        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_udivmodsi4.o)
+ .text.libgcc.builtins
+                0x0000000000007da2        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_udivmodsi4.o)
+ .text.libgcc.fmul
+                0x0000000000007da2        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_udivmodsi4.o)
+ .text.libgcc.fixed
+                0x0000000000007da2        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_udivmodsi4.o)
+ .text.libgcc.mul
+                0x0000000000007da2        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_divmodsi4.o)
+ .text.libgcc.div
+                0x0000000000007da2       0x2e /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_divmodsi4.o)
+                0x0000000000007da2                __divmodsi4
+ .text.libgcc   0x0000000000007dd0        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_divmodsi4.o)
+ .text.libgcc.prologue
+                0x0000000000007dd0        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_divmodsi4.o)
+ .text.libgcc.builtins
+                0x0000000000007dd0        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_divmodsi4.o)
+ .text.libgcc.fmul
+                0x0000000000007dd0        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_divmodsi4.o)
+ .text.libgcc.fixed
+                0x0000000000007dd0        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_divmodsi4.o)
+ .text.libgcc.mul
+                0x0000000000007dd0        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_negsi2.o)
+ .text.libgcc.div
+                0x0000000000007dd0       0x10 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_negsi2.o)
+                0x0000000000007dd0                __negsi2
+ .text.libgcc   0x0000000000007de0        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_negsi2.o)
+ .text.libgcc.prologue
+                0x0000000000007de0        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_negsi2.o)
+ .text.libgcc.builtins
+                0x0000000000007de0        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_negsi2.o)
+ .text.libgcc.fmul
+                0x0000000000007de0        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_negsi2.o)
+ .text.libgcc.fixed
+                0x0000000000007de0        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_negsi2.o)
+ .text.libgcc.mul
+                0x0000000000007de0        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_exit.o)
+ .text.libgcc.div
+                0x0000000000007de0        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_exit.o)
+ .text.libgcc   0x0000000000007de0        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_exit.o)
+ .text.libgcc.prologue
+                0x0000000000007de0        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_exit.o)
+ .text.libgcc.builtins
+                0x0000000000007de0        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_exit.o)
+ .text.libgcc.fmul
+                0x0000000000007de0        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_exit.o)
+ .text.libgcc.fixed
+                0x0000000000007de0        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_exit.o)
+ .text.libgcc.mul
+                0x0000000000007de0        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_tablejump2.o)
+ .text.libgcc.div
+                0x0000000000007de0        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_tablejump2.o)
+ .text.libgcc   0x0000000000007de0        0xc /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_tablejump2.o)
+                0x0000000000007de0                __tablejump2__
+ .text.libgcc.prologue
+                0x0000000000007dec        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_tablejump2.o)
+ .text.libgcc.builtins
+                0x0000000000007dec        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_tablejump2.o)
+ .text.libgcc.fmul
+                0x0000000000007dec        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_tablejump2.o)
+ .text.libgcc.fixed
+                0x0000000000007dec        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_tablejump2.o)
+ .text.libgcc.mul
+                0x0000000000007dec        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_copy_data.o)
+ .text.libgcc.div
+                0x0000000000007dec        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_copy_data.o)
+ .text.libgcc   0x0000000000007dec        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_copy_data.o)
+ .text.libgcc.prologue
+                0x0000000000007dec        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_copy_data.o)
+ .text.libgcc.builtins
+                0x0000000000007dec        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_copy_data.o)
+ .text.libgcc.fmul
+                0x0000000000007dec        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_copy_data.o)
+ .text.libgcc.fixed
+                0x0000000000007dec        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_copy_data.o)
+ .text.libgcc.mul
+                0x0000000000007dec        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_clear_bss.o)
+ .text.libgcc.div
+                0x0000000000007dec        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_clear_bss.o)
+ .text.libgcc   0x0000000000007dec        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_clear_bss.o)
+ .text.libgcc.prologue
+                0x0000000000007dec        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_clear_bss.o)
+ .text.libgcc.builtins
+                0x0000000000007dec        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_clear_bss.o)
+ .text.libgcc.fmul
+                0x0000000000007dec        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_clear_bss.o)
+ .text.libgcc.fixed
+                0x0000000000007dec        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_clear_bss.o)
+ .text.libgcc.mul
+                0x0000000000007dec       0x1e /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_umulhisi3.o)
+                0x0000000000007dec                __umulhisi3
+ .text.libgcc.div
+                0x0000000000007e0a        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_umulhisi3.o)
+ .text.libgcc   0x0000000000007e0a        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_umulhisi3.o)
+ .text.libgcc.prologue
+                0x0000000000007e0a        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_umulhisi3.o)
+ .text.libgcc.builtins
+                0x0000000000007e0a        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_umulhisi3.o)
+ .text.libgcc.fmul
+                0x0000000000007e0a        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_umulhisi3.o)
+ .text.libgcc.fixed
+                0x0000000000007e0a        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_umulhisi3.o)
+ .text.libgcc.mul
+                0x0000000000007e0a        0xe /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_usmulhisi3.o)
+                0x0000000000007e0a                __usmulhisi3
+                0x0000000000007e0e                __usmulhisi3_tail
+ .text.libgcc.div
+                0x0000000000007e18        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_usmulhisi3.o)
+ .text.libgcc   0x0000000000007e18        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_usmulhisi3.o)
+ .text.libgcc.prologue
+                0x0000000000007e18        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_usmulhisi3.o)
+ .text.libgcc.builtins
+                0x0000000000007e18        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_usmulhisi3.o)
+ .text.libgcc.fmul
+                0x0000000000007e18        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_usmulhisi3.o)
+ .text.libgcc.fixed
+                0x0000000000007e18        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_usmulhisi3.o)
+ .text.libgcc.mul
+                0x0000000000007e18       0x16 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_muluhisi3.o)
+                0x0000000000007e18                __muluhisi3
+ .text.libgcc.div
+                0x0000000000007e2e        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_muluhisi3.o)
+ .text.libgcc   0x0000000000007e2e        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_muluhisi3.o)
+ .text.libgcc.prologue
+                0x0000000000007e2e        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_muluhisi3.o)
+ .text.libgcc.builtins
+                0x0000000000007e2e        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_muluhisi3.o)
+ .text.libgcc.fmul
+                0x0000000000007e2e        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_muluhisi3.o)
+ .text.libgcc.fixed
+                0x0000000000007e2e        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_muluhisi3.o)
+ .text.libgcc.mul
+                0x0000000000007e2e        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_prologue.o)
+ .text.libgcc.div
+                0x0000000000007e2e        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_prologue.o)
+ .text.libgcc   0x0000000000007e2e        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_prologue.o)
+ .text.libgcc.prologue
+                0x0000000000007e2e       0x38 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_prologue.o)
+                0x0000000000007e2e                __prologue_saves__
+ .text.libgcc.builtins
+                0x0000000000007e66        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_prologue.o)
+ .text.libgcc.fmul
+                0x0000000000007e66        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_prologue.o)
+ .text.libgcc.fixed
+                0x0000000000007e66        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_prologue.o)
+ .text.libgcc.mul
+                0x0000000000007e66        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_epilogue.o)
+ .text.libgcc.div
+                0x0000000000007e66        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_epilogue.o)
+ .text.libgcc   0x0000000000007e66        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_epilogue.o)
+ .text.libgcc.prologue
+                0x0000000000007e66       0x36 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_epilogue.o)
+                0x0000000000007e66                __epilogue_restores__
+ .text.libgcc.builtins
+                0x0000000000007e9c        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_epilogue.o)
+ .text.libgcc.fmul
+                0x0000000000007e9c        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_epilogue.o)
+ .text.libgcc.fixed
+                0x0000000000007e9c        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_epilogue.o)
+ .text.avr-libc
+                0x0000000000007e9c       0x44 /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libc.a(ultoa_ncheck.o)
+                0x0000000000007e9c                __ultoa_ncheck
+                0x0000000000007e9e                __ultoa_common
+ .text.avr-libc
+                0x0000000000007ee0       0x34 /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libc.a(utoa_ncheck.o)
+                0x0000000000007ee0                __utoa_ncheck
+                0x0000000000007ee2                __utoa_common
+ .text.avr-libc
+                0x0000000000007f14       0x20 /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libc.a(strrev.o)
+                0x0000000000007f14                strrev
+ .text.avr-libc
+                0x0000000000007f34       0x10 /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libatmega328.a(eerd_byte.o)
+                0x0000000000007f34                eeprom_read_byte
+ .text.avr-libc
+                0x0000000000007f44        0xc /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libatmega328.a(eerd_word.o)
+                0x0000000000007f44                eeprom_read_word
+ .text.avr-libc
+                0x0000000000007f50       0x1c /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libatmega328.a(eewr_byte.o)
+                0x0000000000007f50                eeprom_write_byte
+                0x0000000000007f52                eeprom_write_r18
+ .text.avr-libc
+                0x0000000000007f6c       0x20 /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libatmega328.a(eerd_block.o)
+                0x0000000000007f6c                eeprom_read_block
+                0x0000000000007f70                eeprom_read_blraw
+                0x0000000000007f8c                . = ALIGN (0x2)
+ *(.fini9)
+ .fini9         0x0000000000007f8c        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_exit.o)
+                0x0000000000007f8c                exit
+                0x0000000000007f8c                _exit
+ *(.fini9)
+ *(.fini8)
+ *(.fini8)
+ *(.fini7)
+ *(.fini7)
+ *(.fini6)
+ *(.fini6)
+ *(.fini5)
+ *(.fini5)
+ *(.fini4)
+ *(.fini4)
+ *(.fini3)
+ *(.fini3)
+ *(.fini2)
+ *(.fini2)
+ *(.fini1)
+ *(.fini1)
+ *(.fini0)
+ .fini0         0x0000000000007f8c        0x4 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_exit.o)
+ *(.fini0)
+                0x0000000000007f90                _etext = .
+
+.data           0x0000000000800100        0x6 load address 0x0000000000007f90
+                0x0000000000800100                PROVIDE (__data_start, .)
+ *(.data)
+ .data          0x0000000000800100        0x0 /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/crtatmega328.o
+ .data          0x0000000000800100        0x6 main.o
+                0x0000000000800100                ProbeColors
+ .data          0x0000000000800106        0x0 user.o
+ .data          0x0000000000800106        0x0 pause.o
+ .data          0x0000000000800106        0x0 adjust.o
+ .data          0x0000000000800106        0x0 ADC.o
+ .data          0x0000000000800106        0x0 probes.o
+ .data          0x0000000000800106        0x0 display.o
+ .data          0x0000000000800106        0x0 resistor.o
+ .data          0x0000000000800106        0x0 cap.o
+ .data          0x0000000000800106        0x0 semi.o
+ .data          0x0000000000800106        0x0 inductor.o
+ .data          0x0000000000800106        0x0 tools_misc.o
+ .data          0x0000000000800106        0x0 tools_signal.o
+ .data          0x0000000000800106        0x0 tools_LC_Meter.o
+ .data          0x0000000000800106        0x0 SPI.o
+ .data          0x0000000000800106        0x0 I2C.o
+ .data          0x0000000000800106        0x0 serial.o
+ .data          0x0000000000800106        0x0 commands.o
+ .data          0x0000000000800106        0x0 OneWire.o
+ .data          0x0000000000800106        0x0 IR_RX.o
+ .data          0x0000000000800106        0x0 IR_TX.o
+ .data          0x0000000000800106        0x0 DHTxx.o
+ .data          0x0000000000800106        0x0 ADS7843.o
+ .data          0x0000000000800106        0x0 HD44780.o
+ .data          0x0000000000800106        0x0 ILI9163.o
+ .data          0x0000000000800106        0x0 ILI9341.o
+ .data          0x0000000000800106        0x0 ILI9481.o
+ .data          0x0000000000800106        0x0 ILI9486.o
+ .data          0x0000000000800106        0x0 ILI9488.o
+ .data          0x0000000000800106        0x0 PCD8544.o
+ .data          0x0000000000800106        0x0 PCF8814.o
+ .data          0x0000000000800106        0x0 SH1106.o
+ .data          0x0000000000800106        0x0 SSD1306.o
+ .data          0x0000000000800106        0x0 ST7036.o
+ .data          0x0000000000800106        0x0 ST7565R.o
+ .data          0x0000000000800106        0x0 ST7735.o
+ .data          0x0000000000800106        0x0 ST7920.o
+ .data          0x0000000000800106        0x0 STE2007.o
+ .data          0x0000000000800106        0x0 VT100.o
+ .data          0x0000000000800106        0x0 TestDisplay.o
+ .data          0x0000000000800106        0x0 wait.o
+ .data          0x0000000000800106        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_mulsi3.o)
+ .data          0x0000000000800106        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_udivmodqi4.o)
+ .data          0x0000000000800106        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_divmodqi4.o)
+ .data          0x0000000000800106        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_udivmodhi4.o)
+ .data          0x0000000000800106        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_divmodhi4.o)
+ .data          0x0000000000800106        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_udivmodsi4.o)
+ .data          0x0000000000800106        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_divmodsi4.o)
+ .data          0x0000000000800106        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_negsi2.o)
+ .data          0x0000000000800106        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_exit.o)
+ .data          0x0000000000800106        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_tablejump2.o)
+ .data          0x0000000000800106        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_copy_data.o)
+ .data          0x0000000000800106        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_clear_bss.o)
+ .data          0x0000000000800106        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_umulhisi3.o)
+ .data          0x0000000000800106        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_usmulhisi3.o)
+ .data          0x0000000000800106        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_muluhisi3.o)
+ .data          0x0000000000800106        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_prologue.o)
+ .data          0x0000000000800106        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_epilogue.o)
+ .data          0x0000000000800106        0x0 /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libc.a(ultoa_ncheck.o)
+ .data          0x0000000000800106        0x0 /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libc.a(utoa_ncheck.o)
+ .data          0x0000000000800106        0x0 /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libc.a(strrev.o)
+ .data          0x0000000000800106        0x0 /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libatmega328.a(eerd_byte.o)
+ .data          0x0000000000800106        0x0 /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libatmega328.a(eerd_word.o)
+ .data          0x0000000000800106        0x0 /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libatmega328.a(eewr_byte.o)
+ .data          0x0000000000800106        0x0 /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libatmega328.a(eerd_block.o)
+ *(.data*)
+ *(.gnu.linkonce.d*)
+ *(.rodata)
+ *(.rodata*)
+ *(.gnu.linkonce.r*)
+                0x0000000000800106                . = ALIGN (0x2)
+                0x0000000000800106                _edata = .
+                0x0000000000800106                PROVIDE (__data_end, .)
+
+.bss            0x0000000000800106       0xf3
+                0x0000000000800106                PROVIDE (__bss_start, .)
+ *(.bss)
+ .bss           0x0000000000800106        0x0 /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/crtatmega328.o
+ .bss           0x0000000000800106        0x0 main.o
+ .bss           0x0000000000800106        0x0 user.o
+ .bss           0x0000000000800106        0x0 pause.o
+ .bss           0x0000000000800106        0x0 adjust.o
+ .bss           0x0000000000800106        0x0 ADC.o
+ .bss           0x0000000000800106        0x0 probes.o
+ .bss           0x0000000000800106        0x0 display.o
+ .bss           0x0000000000800106        0x0 resistor.o
+ .bss           0x0000000000800106        0x0 cap.o
+ .bss           0x0000000000800106        0x0 semi.o
+ .bss           0x0000000000800106        0x0 inductor.o
+ .bss           0x0000000000800106        0x0 tools_misc.o
+ .bss           0x0000000000800106        0x0 tools_signal.o
+ .bss           0x0000000000800106        0x0 tools_LC_Meter.o
+ .bss           0x0000000000800106        0x0 SPI.o
+ .bss           0x0000000000800106        0x0 I2C.o
+ .bss           0x0000000000800106        0x0 serial.o
+ .bss           0x0000000000800106        0x0 commands.o
+ .bss           0x0000000000800106        0x0 OneWire.o
+ .bss           0x0000000000800106        0x0 IR_RX.o
+ .bss           0x0000000000800106        0x0 IR_TX.o
+ .bss           0x0000000000800106        0x0 DHTxx.o
+ .bss           0x0000000000800106        0x0 ADS7843.o
+ .bss           0x0000000000800106        0x0 HD44780.o
+ .bss           0x0000000000800106        0x0 ILI9163.o
+ .bss           0x0000000000800106        0x0 ILI9341.o
+ .bss           0x0000000000800106        0x0 ILI9481.o
+ .bss           0x0000000000800106        0x0 ILI9486.o
+ .bss           0x0000000000800106        0x0 ILI9488.o
+ .bss           0x0000000000800106        0x0 PCD8544.o
+ .bss           0x0000000000800106        0x0 PCF8814.o
+ .bss           0x0000000000800106        0x0 SH1106.o
+ .bss           0x0000000000800106        0x0 SSD1306.o
+ .bss           0x0000000000800106        0x0 ST7036.o
+ .bss           0x0000000000800106        0x0 ST7565R.o
+ .bss           0x0000000000800106        0x0 ST7735.o
+ .bss           0x0000000000800106        0x0 ST7920.o
+ .bss           0x0000000000800106        0x0 STE2007.o
+ .bss           0x0000000000800106        0x0 VT100.o
+ .bss           0x0000000000800106        0x0 TestDisplay.o
+ .bss           0x0000000000800106        0x0 wait.o
+ .bss           0x0000000000800106        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_mulsi3.o)
+ .bss           0x0000000000800106        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_udivmodqi4.o)
+ .bss           0x0000000000800106        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_divmodqi4.o)
+ .bss           0x0000000000800106        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_udivmodhi4.o)
+ .bss           0x0000000000800106        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_divmodhi4.o)
+ .bss           0x0000000000800106        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_udivmodsi4.o)
+ .bss           0x0000000000800106        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_divmodsi4.o)
+ .bss           0x0000000000800106        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_negsi2.o)
+ .bss           0x0000000000800106        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_exit.o)
+ .bss           0x0000000000800106        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_tablejump2.o)
+ .bss           0x0000000000800106        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_copy_data.o)
+ .bss           0x0000000000800106        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_clear_bss.o)
+ .bss           0x0000000000800106        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_umulhisi3.o)
+ .bss           0x0000000000800106        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_usmulhisi3.o)
+ .bss           0x0000000000800106        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_muluhisi3.o)
+ .bss           0x0000000000800106        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_prologue.o)
+ .bss           0x0000000000800106        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_epilogue.o)
+ .bss           0x0000000000800106        0x0 /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libc.a(ultoa_ncheck.o)
+ .bss           0x0000000000800106        0x0 /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libc.a(utoa_ncheck.o)
+ .bss           0x0000000000800106        0x0 /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libc.a(strrev.o)
+ .bss           0x0000000000800106        0x0 /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libatmega328.a(eerd_byte.o)
+ .bss           0x0000000000800106        0x0 /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libatmega328.a(eerd_word.o)
+ .bss           0x0000000000800106        0x0 /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libatmega328.a(eewr_byte.o)
+ .bss           0x0000000000800106        0x0 /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libatmega328.a(eerd_block.o)
+ *(.bss*)
+ *(COMMON)
+ COMMON         0x0000000000800106       0xe7 main.o
+                0x0000000000800106                Check
+                0x0000000000800111                Resistors
+                0x0000000000800126                UI
+                0x000000000080013c                AltSemi
+                0x0000000000800143                OutBuffer
+                0x000000000080014f                Caps
+                0x000000000080017c                Diodes
+                0x00000000008001a0                Cfg
+                0x00000000008001ad                MissedParts
+                0x00000000008001ae                SPI
+                0x00000000008001af                Semi
+                0x00000000008001cb                Probes
+                0x00000000008001dd                NV
+                0x00000000008001e8                Inductor
+ COMMON         0x00000000008001ed        0x2 tools_signal.o
+                0x00000000008001ed                Pulses
+ COMMON         0x00000000008001ef        0xa ST7735.o
+                0x00000000008001ef                X_End
+                0x00000000008001f1                Y_End
+                0x00000000008001f3                LineFlags
+                0x00000000008001f5                Y_Start
+                0x00000000008001f7                X_Start
+                0x00000000008001f9                PROVIDE (__bss_end, .)
+                0x0000000000007f90                __data_load_start = LOADADDR (.data)
+                0x0000000000007f96                __data_load_end = (__data_load_start + SIZEOF (.data))
+
+.noinit         0x00000000008001f9        0x0
+                [!provide]                        PROVIDE (__noinit_start, .)
+ *(.noinit*)
+                [!provide]                        PROVIDE (__noinit_end, .)
+                0x00000000008001f9                _end = .
+                [!provide]                        PROVIDE (__heap_start, .)
+
+.eeprom         0x0000000000810000      0x311
+ *(.eeprom*)
+ .eeprom        0x0000000000810000      0x311 main.o
+                0x0000000000810000                Channel_table
+                0x0000000000810003                Pin_table
+                0x0000000000810006                Rh_table
+                0x0000000000810009                Rl_table
+                0x000000000081000c                E12_table
+                0x0000000000810024                E6_table
+                0x0000000000810030                T1_RegBits_table
+                0x0000000000810035                T1_Prescaler_table
+                0x000000000081003f                Inductor_table
+                0x000000000081007f                SmallCap_table
+                0x0000000000810091                LargeCap_table
+                0x00000000008100ed                Prefix_table
+                0x00000000008100f5                Resistor_str
+                0x00000000008100fa                Diode_CA_str
+                0x00000000008100fe                Diode_AC_str
+                0x0000000000810102                Cap_str
+                0x0000000000810106                h_FE_r_str
+                0x000000000081010b                I_str
+                0x000000000081010e                R_BB_str
+                0x0000000000810113                ESR_str
+                0x0000000000810117                V_GSoff_str
+                0x0000000000810121                R_DS_str
+                0x0000000000810125                I_leak_str
+                0x0000000000810129                I_DSS_str
+                0x000000000081012e                Profile2_str
+                0x0000000000810131                Profile1_str
+                0x0000000000810134                CompOffset_str
+                0x000000000081013a                Vcc_str
+                0x000000000081013e                ROffset_str
+                0x0000000000810141                CapOffset_str
+                0x0000000000810144                ProbeComb_str
+                0x000000000081014d                Rh_str
+                0x0000000000810152                Rl_str
+                0x0000000000810157                RiHigh_str
+                0x000000000081015b                RiLow_str
+                0x000000000081015f                RhHigh_str
+                0x0000000000810163                RhLow_str
+                0x0000000000810167                URef_str
+                0x000000000081016c                V_T_str
+                0x000000000081016f                I_R_str
+                0x0000000000810173                Vth_str
+                0x0000000000810177                DiodeCap_str
+                0x0000000000810179                Vf_str
+                0x000000000081017c                I_CEO_str
+                0x0000000000810181                V_GT_str
+                0x0000000000810186                V_BE_str
+                0x000000000081018a                h_FE_str
+                0x000000000081018e                PNP_str
+                0x0000000000810192                NPN_str
+                0x0000000000810196                Cgs_str
+                0x000000000081019a                IGBT_str
+                0x000000000081019f                Depletion_str
+                0x00000000008101a4                Enhancement_str
+                0x00000000008101a9                Channel_str
+                0x00000000008101ad                FET_str
+                0x00000000008101b1                MOS_str
+                0x00000000008101b5                Version_str
+                0x00000000008101bc                PowerOff_str
+                0x00000000008101c0                Monitor_RCL_str
+                0x00000000008101cc                CapDischarge_str
+                0x00000000008101d8                CapLow_str
+                0x00000000008101db                CapHigh_str
+                0x00000000008101de                CapCharge_str
+                0x00000000008101e7                CapLeak_str
+                0x00000000008101f3                UJT_str
+                0x00000000008101f7                FreqCounter_str
+                0x0000000000810205                Min_str
+                0x0000000000810209                Zener_str
+                0x000000000081020f                SquareWave_str
+                0x000000000081021b                PWM_str
+                0x000000000081021f                Menu_or_Test_str
+                0x000000000081022b                Low_str
+                0x000000000081022f                Weak_str
+                0x0000000000810234                OK_str
+                0x0000000000810237                Battery_str
+                0x000000000081023b                Hertz_str
+                0x000000000081023e                Bye_str
+                0x0000000000810243                PUT_str
+                0x0000000000810247                Triac_str
+                0x000000000081024d                Thyristor_str
+                0x0000000000810251                BJT_str
+                0x0000000000810255                Checksum_str
+                0x000000000081025e                Exit_str
+                0x0000000000810263                Error_str
+                0x000000000081026a                DischargeFailed_str
+                0x0000000000810273                ShortCircuit_str
+                0x0000000000810282                Create_str
+                0x0000000000810289                Remove_str
+                0x0000000000810290                Show_str
+                0x000000000081029c                Load_str
+                0x00000000008102a1                Save_str
+                0x00000000008102a6                Adjustment_str
+                0x00000000008102b1                Selftest_str
+                0x00000000008102b6                Select_str
+                0x00000000008102bd                Done_str
+                0x00000000008102c3                Failed2_str
+                0x00000000008102ca                Failed1_str
+                0x00000000008102d7                Timeout_str
+                0x00000000008102df                Probing_str
+                0x00000000008102ea                Tester_str
+                0x00000000008102fb                NV_Adjust_2
+                0x0000000000810306                NV_Adjust_1
+                0x0000000000810311                __eeprom_end = .
+
+.fuse
+ *(.fuse)
+ *(.lfuse)
+ *(.hfuse)
+ *(.efuse)
+
+.lock
+ *(.lock*)
+
+.signature
+ *(.signature*)
+
+.user_signatures
+ *(.user_signatures*)
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.comment        0x0000000000000000       0x11
+ *(.comment)
+ .comment       0x0000000000000000       0x11 main.o
+                                         0x12 (size before relaxing)
+ .comment       0x0000000000000011       0x12 user.o
+ .comment       0x0000000000000011       0x12 pause.o
+ .comment       0x0000000000000011       0x12 adjust.o
+ .comment       0x0000000000000011       0x12 ADC.o
+ .comment       0x0000000000000011       0x12 probes.o
+ .comment       0x0000000000000011       0x12 display.o
+ .comment       0x0000000000000011       0x12 resistor.o
+ .comment       0x0000000000000011       0x12 cap.o
+ .comment       0x0000000000000011       0x12 semi.o
+ .comment       0x0000000000000011       0x12 inductor.o
+ .comment       0x0000000000000011       0x12 tools_misc.o
+ .comment       0x0000000000000011       0x12 tools_signal.o
+ .comment       0x0000000000000011       0x12 tools_LC_Meter.o
+ .comment       0x0000000000000011       0x12 SPI.o
+ .comment       0x0000000000000011       0x12 I2C.o
+ .comment       0x0000000000000011       0x12 serial.o
+ .comment       0x0000000000000011       0x12 commands.o
+ .comment       0x0000000000000011       0x12 OneWire.o
+ .comment       0x0000000000000011       0x12 IR_RX.o
+ .comment       0x0000000000000011       0x12 IR_TX.o
+ .comment       0x0000000000000011       0x12 DHTxx.o
+ .comment       0x0000000000000011       0x12 ADS7843.o
+ .comment       0x0000000000000011       0x12 HD44780.o
+ .comment       0x0000000000000011       0x12 ILI9163.o
+ .comment       0x0000000000000011       0x12 ILI9341.o
+ .comment       0x0000000000000011       0x12 ILI9481.o
+ .comment       0x0000000000000011       0x12 ILI9486.o
+ .comment       0x0000000000000011       0x12 ILI9488.o
+ .comment       0x0000000000000011       0x12 PCD8544.o
+ .comment       0x0000000000000011       0x12 PCF8814.o
+ .comment       0x0000000000000011       0x12 SH1106.o
+ .comment       0x0000000000000011       0x12 SSD1306.o
+ .comment       0x0000000000000011       0x12 ST7036.o
+ .comment       0x0000000000000011       0x12 ST7565R.o
+ .comment       0x0000000000000011       0x12 ST7735.o
+ .comment       0x0000000000000011       0x12 ST7920.o
+ .comment       0x0000000000000011       0x12 STE2007.o
+ .comment       0x0000000000000011       0x12 VT100.o
+ .comment       0x0000000000000011       0x12 TestDisplay.o
+
+.note.gnu.avr.deviceinfo
+                0x0000000000000000       0x3c
+ .note.gnu.avr.deviceinfo
+                0x0000000000000000       0x3c /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/crtatmega328.o
+
+.note.gnu.build-id
+ *(.note.gnu.build-id)
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges  0x0000000000000000      0x220
+ *(.debug_aranges)
+ .debug_aranges
+                0x0000000000000000       0x28 main.o
+ .debug_aranges
+                0x0000000000000028       0x20 user.o
+ .debug_aranges
+                0x0000000000000048       0x20 pause.o
+ .debug_aranges
+                0x0000000000000068       0x20 adjust.o
+ .debug_aranges
+                0x0000000000000088       0x20 ADC.o
+ .debug_aranges
+                0x00000000000000a8       0x20 probes.o
+ .debug_aranges
+                0x00000000000000c8       0x20 display.o
+ .debug_aranges
+                0x00000000000000e8       0x20 resistor.o
+ .debug_aranges
+                0x0000000000000108       0x20 cap.o
+ .debug_aranges
+                0x0000000000000128       0x20 semi.o
+ .debug_aranges
+                0x0000000000000148       0x20 inductor.o
+ .debug_aranges
+                0x0000000000000168       0x20 tools_misc.o
+ .debug_aranges
+                0x0000000000000188       0x20 tools_signal.o
+ .debug_aranges
+                0x00000000000001a8       0x18 tools_LC_Meter.o
+ .debug_aranges
+                0x00000000000001c0       0x20 SPI.o
+ .debug_aranges
+                0x00000000000001e0       0x20 ST7735.o
+ .debug_aranges
+                0x0000000000000200       0x20 wait.o
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info     0x0000000000000000     0xc70b
+ *(.debug_info .gnu.linkonce.wi.*)
+ .debug_info    0x0000000000000000      0x5f4 /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/crtatmega328.o
+ .debug_info    0x00000000000005f4     0x30d6 main.o
+ .debug_info    0x00000000000036ca     0x1090 user.o
+ .debug_info    0x000000000000475a      0x1da pause.o
+ .debug_info    0x0000000000004934      0xf83 adjust.o
+ .debug_info    0x00000000000058b7      0x279 ADC.o
+ .debug_info    0x0000000000005b30      0xe98 probes.o
+ .debug_info    0x00000000000069c8      0xe2d display.o
+ .debug_info    0x00000000000077f5      0x863 resistor.o
+ .debug_info    0x0000000000008058      0xcd5 cap.o
+ .debug_info    0x0000000000008d2d     0x106c semi.o
+ .debug_info    0x0000000000009d99      0x78f inductor.o
+ .debug_info    0x000000000000a528      0xd71 tools_misc.o
+ .debug_info    0x000000000000b299      0x8f4 tools_signal.o
+ .debug_info    0x000000000000bb8d       0x6b tools_LC_Meter.o
+ .debug_info    0x000000000000bbf8      0x187 SPI.o
+ .debug_info    0x000000000000bd7f      0x92e ST7735.o
+ .debug_info    0x000000000000c6ad       0x5e wait.o
+
+.debug_abbrev   0x0000000000000000     0x2299
+ *(.debug_abbrev)
+ .debug_abbrev  0x0000000000000000      0x5a2 /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/crtatmega328.o
+ .debug_abbrev  0x00000000000005a2      0x31c main.o
+ .debug_abbrev  0x00000000000008be      0x298 user.o
+ .debug_abbrev  0x0000000000000b56       0xe0 pause.o
+ .debug_abbrev  0x0000000000000c36      0x1c9 adjust.o
+ .debug_abbrev  0x0000000000000dff      0x111 ADC.o
+ .debug_abbrev  0x0000000000000f10      0x298 probes.o
+ .debug_abbrev  0x00000000000011a8      0x2a1 display.o
+ .debug_abbrev  0x0000000000001449      0x1b4 resistor.o
+ .debug_abbrev  0x00000000000015fd      0x2bb cap.o
+ .debug_abbrev  0x00000000000018b8      0x1fb semi.o
+ .debug_abbrev  0x0000000000001ab3      0x1a2 inductor.o
+ .debug_abbrev  0x0000000000001c55      0x1cd tools_misc.o
+ .debug_abbrev  0x0000000000001e22      0x179 tools_signal.o
+ .debug_abbrev  0x0000000000001f9b       0x26 tools_LC_Meter.o
+ .debug_abbrev  0x0000000000001fc1       0xd7 SPI.o
+ .debug_abbrev  0x0000000000002098      0x1ed ST7735.o
+ .debug_abbrev  0x0000000000002285       0x14 wait.o
+
+.debug_line     0x0000000000000000     0x5e43
+ *(.debug_line .debug_line.* .debug_line_end)
+ .debug_line    0x0000000000000000       0x1a /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/crtatmega328.o
+ .debug_line    0x000000000000001a      0xf51 main.o
+ .debug_line    0x0000000000000f6b      0x91f user.o
+ .debug_line    0x000000000000188a      0x145 pause.o
+ .debug_line    0x00000000000019cf      0x77d adjust.o
+ .debug_line    0x000000000000214c      0x158 ADC.o
+ .debug_line    0x00000000000022a4      0x736 probes.o
+ .debug_line    0x00000000000029da      0x4c4 display.o
+ .debug_line    0x0000000000002e9e      0x4ba resistor.o
+ .debug_line    0x0000000000003358      0x86c cap.o
+ .debug_line    0x0000000000003bc4      0xce5 semi.o
+ .debug_line    0x00000000000048a9      0x380 inductor.o
+ .debug_line    0x0000000000004c29      0x50f tools_misc.o
+ .debug_line    0x0000000000005138      0x6c1 tools_signal.o
+ .debug_line    0x00000000000057f9       0x1a tools_LC_Meter.o
+ .debug_line    0x0000000000005813       0xc5 SPI.o
+ .debug_line    0x00000000000058d8        0x0 I2C.o
+ .debug_line    0x00000000000058d8        0x0 serial.o
+ .debug_line    0x00000000000058d8        0x0 commands.o
+ .debug_line    0x00000000000058d8        0x0 OneWire.o
+ .debug_line    0x00000000000058d8        0x0 IR_RX.o
+ .debug_line    0x00000000000058d8        0x0 IR_TX.o
+ .debug_line    0x00000000000058d8        0x0 DHTxx.o
+ .debug_line    0x00000000000058d8        0x0 ADS7843.o
+ .debug_line    0x00000000000058d8        0x0 HD44780.o
+ .debug_line    0x00000000000058d8        0x0 ILI9163.o
+ .debug_line    0x00000000000058d8        0x0 ILI9341.o
+ .debug_line    0x00000000000058d8        0x0 ILI9481.o
+ .debug_line    0x00000000000058d8        0x0 ILI9486.o
+ .debug_line    0x00000000000058d8        0x0 ILI9488.o
+ .debug_line    0x00000000000058d8        0x0 PCD8544.o
+ .debug_line    0x00000000000058d8        0x0 PCF8814.o
+ .debug_line    0x00000000000058d8        0x0 SH1106.o
+ .debug_line    0x00000000000058d8        0x0 SSD1306.o
+ .debug_line    0x00000000000058d8        0x0 ST7036.o
+ .debug_line    0x00000000000058d8        0x0 ST7565R.o
+ .debug_line    0x00000000000058d8      0x45c ST7735.o
+ .debug_line    0x0000000000005d34        0x0 ST7920.o
+ .debug_line    0x0000000000005d34        0x0 STE2007.o
+ .debug_line    0x0000000000005d34        0x0 VT100.o
+ .debug_line    0x0000000000005d34        0x0 TestDisplay.o
+ .debug_line    0x0000000000005d34      0x10f wait.o
+
+.debug_frame    0x0000000000000000     0x1108
+ *(.debug_frame)
+ .debug_frame   0x0000000000000000      0x2e0 main.o
+ .debug_frame   0x00000000000002e0      0x1ec user.o
+ .debug_frame   0x00000000000004cc       0x40 pause.o
+ .debug_frame   0x000000000000050c       0xe4 adjust.o
+ .debug_frame   0x00000000000005f0       0x60 ADC.o
+ .debug_frame   0x0000000000000650      0x198 probes.o
+ .debug_frame   0x00000000000007e8      0x1e8 display.o
+ .debug_frame   0x00000000000009d0       0xcc resistor.o
+ .debug_frame   0x0000000000000a9c       0xf4 cap.o
+ .debug_frame   0x0000000000000b90      0x1d8 semi.o
+ .debug_frame   0x0000000000000d68       0x6c inductor.o
+ .debug_frame   0x0000000000000dd4       0xc4 tools_misc.o
+ .debug_frame   0x0000000000000e98      0x10c tools_signal.o
+ .debug_frame   0x0000000000000fa4       0x34 SPI.o
+ .debug_frame   0x0000000000000fd8      0x130 ST7735.o
+
+.debug_str      0x0000000000000000     0x180a
+ *(.debug_str)
+ .debug_str     0x0000000000000000      0x208 /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/crtatmega328.o
+ .debug_str     0x0000000000000208      0xc91 main.o
+                                        0xd78 (size before relaxing)
+ .debug_str     0x0000000000000e99      0x216 user.o
+                                        0x6b0 (size before relaxing)
+ .debug_str     0x00000000000010af       0x1a pause.o
+                                        0x1e8 (size before relaxing)
+ .debug_str     0x00000000000010c9       0xbc adjust.o
+                                        0x5da (size before relaxing)
+ .debug_str     0x0000000000001185       0x28 ADC.o
+                                        0x1ff (size before relaxing)
+ .debug_str     0x00000000000011ad      0x15d probes.o
+                                        0x586 (size before relaxing)
+ .debug_str     0x000000000000130a       0xd1 display.o
+                                        0x55b (size before relaxing)
+ .debug_str     0x00000000000013db       0x5f resistor.o
+                                        0x3d2 (size before relaxing)
+ .debug_str     0x000000000000143a       0xa8 cap.o
+                                        0x481 (size before relaxing)
+ .debug_str     0x00000000000014e2       0xcd semi.o
+                                        0x584 (size before relaxing)
+ .debug_str     0x00000000000015af       0x3b inductor.o
+                                        0x3b3 (size before relaxing)
+ .debug_str     0x00000000000015ea       0x22 tools_misc.o
+                                        0x4e5 (size before relaxing)
+ .debug_str     0x000000000000160c       0x4e tools_signal.o
+                                        0x47a (size before relaxing)
+ .debug_str     0x000000000000165a       0x2e tools_LC_Meter.o
+                                        0x169 (size before relaxing)
+ .debug_str     0x0000000000001688       0x15 SPI.o
+                                        0x1c1 (size before relaxing)
+ .debug_str     0x000000000000169d        0x6 I2C.o
+                                         0xd5 (size before relaxing)
+ .debug_str     0x00000000000016a3        0x9 serial.o
+                                         0xd8 (size before relaxing)
+ .debug_str     0x00000000000016ac        0xb commands.o
+                                         0xda (size before relaxing)
+ .debug_str     0x00000000000016b7        0xa OneWire.o
+                                         0xd9 (size before relaxing)
+ .debug_str     0x00000000000016c1        0x8 IR_RX.o
+                                         0xd7 (size before relaxing)
+ .debug_str     0x00000000000016c9        0x8 IR_TX.o
+                                         0xd7 (size before relaxing)
+ .debug_str     0x00000000000016d1        0x8 DHTxx.o
+                                         0xd7 (size before relaxing)
+ .debug_str     0x00000000000016d9        0xa ADS7843.o
+                                         0xd9 (size before relaxing)
+ .debug_str     0x00000000000016e3        0xa HD44780.o
+                                         0xd9 (size before relaxing)
+ .debug_str     0x00000000000016ed        0xa ILI9163.o
+                                         0xd9 (size before relaxing)
+ .debug_str     0x00000000000016f7        0xa ILI9341.o
+                                         0xd9 (size before relaxing)
+ .debug_str     0x0000000000001701        0xa ILI9481.o
+                                         0xd9 (size before relaxing)
+ .debug_str     0x000000000000170b        0xa ILI9486.o
+                                         0xd9 (size before relaxing)
+ .debug_str     0x0000000000001715        0xa ILI9488.o
+                                         0xd9 (size before relaxing)
+ .debug_str     0x000000000000171f        0xa PCD8544.o
+                                         0xd9 (size before relaxing)
+ .debug_str     0x0000000000001729        0xa PCF8814.o
+                                         0xd9 (size before relaxing)
+ .debug_str     0x0000000000001733        0x9 SH1106.o
+                                         0xd8 (size before relaxing)
+ .debug_str     0x000000000000173c        0xa SSD1306.o
+                                         0xd9 (size before relaxing)
+ .debug_str     0x0000000000001746        0x9 ST7036.o
+                                         0xd8 (size before relaxing)
+ .debug_str     0x000000000000174f        0xa ST7565R.o
+                                         0xd9 (size before relaxing)
+ .debug_str     0x0000000000001759       0x88 ST7735.o
+                                        0x381 (size before relaxing)
+ .debug_str     0x00000000000017e1        0x9 ST7920.o
+                                         0xd8 (size before relaxing)
+ .debug_str     0x00000000000017ea        0xa STE2007.o
+                                         0xd9 (size before relaxing)
+ .debug_str     0x00000000000017f4        0x8 VT100.o
+                                         0xd7 (size before relaxing)
+ .debug_str     0x00000000000017fc        0xe TestDisplay.o
+                                         0xdd (size before relaxing)
+
+.debug_loc      0x0000000000000000     0x8f5d
+ *(.debug_loc)
+ .debug_loc     0x0000000000000000     0x111b main.o
+ .debug_loc     0x000000000000111b     0x1128 user.o
+ .debug_loc     0x0000000000002243       0xf2 pause.o
+ .debug_loc     0x0000000000002335      0x967 adjust.o
+ .debug_loc     0x0000000000002c9c      0x1d3 ADC.o
+ .debug_loc     0x0000000000002e6f      0xdb0 probes.o
+ .debug_loc     0x0000000000003c1f      0xa96 display.o
+ .debug_loc     0x00000000000046b5      0xb5a resistor.o
+ .debug_loc     0x000000000000520f      0xc8e cap.o
+ .debug_loc     0x0000000000005e9d     0x1427 semi.o
+ .debug_loc     0x00000000000072c4      0x5c4 inductor.o
+ .debug_loc     0x0000000000007888      0x49f tools_misc.o
+ .debug_loc     0x0000000000007d27      0xad5 tools_signal.o
+ .debug_loc     0x00000000000087fc       0x55 SPI.o
+ .debug_loc     0x0000000000008851      0x70c ST7735.o
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.debug_pubtypes
+ *(.debug_pubtypes)
+
+.debug_ranges   0x0000000000000000       0x48
+ *(.debug_ranges)
+ .debug_ranges  0x0000000000000000       0x30 main.o
+ .debug_ranges  0x0000000000000030       0x18 cap.o
+
+.debug_macro
+ *(.debug_macro)
+OUTPUT(ComponentTester elf32-avr)
+LOAD linker stubs
